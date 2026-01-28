@@ -1,5 +1,5 @@
 # anime-manga-ip-global-expansion
-ML powered Predictive analysis of Japanese media IP to optimise global market entry and streaming licensing.
+ML powered Predictive analysis of Japanese Intellectual Property powered by 'Anime' to optimise global market expansion.
 
 ## 🛠️ Tech Stack & Tools
 
@@ -8,50 +8,79 @@ ML powered Predictive analysis of Japanese media IP to optimise global market en
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557C)
-![uv](https://img.shields.io/badge/uv-Environment-4CAF50)
-![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-E97627?logo=tableau&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-Data%20Visualization-E97627?logo=tableau&logoColor=white)
+![ML](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 ---
 
-## Project Overview
-***The IP Sustainability Crisis in Global Animation***
+## Project Background & Overview
+***The Global IP Opportunity***
 
-While the artistry of Studio Ghibli and the cinematic works of Makoto Shinkai (CoMix Wave Films) have elevated Anime to a globally recognised "sophisticated art form," the industry faces a structural paradox. The global market valuation has surged past $28 Billion(AJA/Grand View Research), yet the rise of Generative AI and the traditional "production committee" model have placed Intellectual Property (IP) creators in a sustainability crisis.
+While the artistry of Studio Ghibli and Makoto Shinkai has elevated Anime to a global art form, the industry faces a structural paradox. As Japan’s domestic market grapples with a shrinking population and economic inflation, the future of Japanese IP—Manga, Light Novels, and Studio Originals—lies in global expansion.
 
-***The Core Conflict***
+***The Mission: Decoding Success***
+This project aims to decode the "recipe" for global IP success seen in powerhouses like One Piece, Naruto, and Your Name. We are analyzing these frameworks to:
 
-Manga-originated animations possess a built-in "support ecosystem" (the Triple-Dip model). However, Studio-originated IPs (Originals) often struggle to achieve financial stability despite high artistic merit. For the industry to survive, studios must transition from being "contractors" to "owners" of profitable, long-tail licenses.
+- Drive Regional Revitalisation: Use IP success to funnel tourism and economic interest into rural Japan.
 
-## The Analysis 
-This project will provide the list of features required for the studios to have for the Globally Successful IP.  
+- Empower Creators: Shift the model so studios can reinvest profits into human creativity.
 
-## The Machine Learning Objective
-Using statistical testing and predictive modeling, this project analyses historical performance data to forecast : 
+- Bridge the Digital Gap: Develop the digital capabilities necessary for Japanese studios to flourish in a tech-driven global landscape.
 
-- ***Global Success Probability***: High-alpha vs. low-alpha performance.
+Goal: To transition the industry from a labour-intensive production model to a high-value, IP-driven ecosystem where creativity and technology intersect.
 
-- ***Regional Resonance***: Predicting which markets (e.g., France, USA, Brazil) will yield the highest ROI.
+## 📊 Data Architecture & ML Strategy
+This project integrates multi-dimensional datasets to bridge the gap between "artistic popularity" and "commercial global success."
+| Pillar                       | Source                                                    | Key Features / Data Points                                                                                    |
+| :----------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
+| **Consumption**             | MyAnimeList (Jikan API)                                  | User scores, member counts, popularity rankings, and completion rates.                           |
+| **Market Reach**         | Manga DataFrame                              | Translation languages, genre-specific performance by region.     |
+| **Ecosystem**         | Gaming & Collabs                             | Frequency of mobile/PC game collaboration.    |
+| **Merchandise**          | Crunchyroll Store                     | Product line diversity (UK/EU/US) and SKU performance as a proxy for physical demand.                             
 
-- ***Transmedia Expansion***: Suggesting optimal mediums (Gaming, Merchandising, or Spin-offs) for growth.
+## 🤖 The Machine Learning Objective
+The core of this repository is a predictive framework designed to classify the commercial trajectory of new Japanese IP.
 
-- ***Long-Tail Viability***: Estimating the "decay rate" of popularity to ensure decade-long profitability. 
+Goal: Success Probability Forecasting
+Using statistical testing and supervised learning, we categorize titles into two primary buckets:
 
+- 🌟 Global Hit: High probability of cross-border success, tourism generation, and long-tail licensing.
+
+- 🏮 Niche/Local: High domestic value but limited "cultural portability" or international scalability.
+
+Technical Note: I utilised feature engineering on the "Triple-Dip" model (Manga -> Anime -> Merch/Game) to determine if a title has the structural support to survive outside the traditional production committee system.
+
+## Executive Summary 
+## Insight Deepdive 
+## Recommendations 
+
+### 🗾 Global IP Decoder: Predicting the Next Anime "Hit"
+Problem: Japanese animation studios are trapped in a low-profit "contractor" model despite a $28B global market.Solution: A Machine Learning framework to identify the "Success Recipe" for global IP, enabling studios to transition from labor-providers to IP owners and drive regional tourism.
+
+Project Board (Trello) | Executive Summary & Slides | Interactive Demo🛠️ 
+
+The Tech StackData: Jikan API (MyAnimeList), Manga/GDP regional data, E-commerce (Crunchyroll Store).ML: Python (Scikit-Learn, Pandas), Random Forest/XGBoost for Hit Classification.Goal: Classify IP as Global Hit vs. Niche/Local with $>XX\%$ accuracy.
+
+📊 Data Pipeline & InsightsAggregated Features: Combined viewing stats (MAL) with "Global Expansion Power" (Game collaborations and merchandise SKU counts across UK/EU/US).
+
+Key EDA Finding: [Insert one punchy insight, e.g., "Manga translated into 5+ languages before Anime adaptation increases merchandise ROI by 40%."]
+
+ML Objective: Predicting the probability of a title becoming a "Global Hit" to guide studio reinvestment into digital capabilities and rural tourism.
+
+🎯 Strategic Impact (Recommendations)
+- Direct Ownership: Shifting from production committees to long-tail license ownership.
+- Human Creativity: Creating a profit loop to fund digital R&D and creator salaries.
+ 
 
 The presentation is available [here](link).
 ---
 Tableau dashboard and sheets available [here](link).
 ---
 
-## 💾 Data Sources
+## 💾 Data Structure Overview (2) 
 
 The analysis merges multiple data sets to analyse the 
 
-| Dataset                        | Source                                                    | Purpose                                                                                    |
-| :----------------------------- | :-------------------------------------------------------- | :----------------------------------------------------------------------------------------- |
-| **title**             | GitHub: 'dataframe name'                                   | purpose tbc                           |
-| **title**         | GitHub: 'dataframe name'                               | purpose tbc      |
-| **title**          | GitHub: 'dataframe name'                     | purpose tbc                             
 
 ## Day 1: summary 
 
