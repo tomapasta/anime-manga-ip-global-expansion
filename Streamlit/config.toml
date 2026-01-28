@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#1366f7"          # Your Vivid Blue for accents
+backgroundColor = "#232a32"       # Your Dark Background
+secondaryBackgroundColor = "#2b343d" # Slightly lighter charcoal for sidebar
+textColor = "#ffffff"             # White text for readability
+font = "sans serif"
