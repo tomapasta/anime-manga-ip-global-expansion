@@ -68,5 +68,5 @@ Technical Note: I utilised feature engineering on the "Triple-Dip" model (Manga 
 - **Prioritize "Execution Alpha"**: Align high-potential IPs with studios that hold equity stakes (e.g., MAPPA, KyoAni). Ownership ensures the production quality required to hit the "Prestige" threshold.
 - **Monetize Emotional Intensity**: Use the model to identify IPs that drive deep fan loyalty. Reinvest in these "high-intensity" titles to build resilient, high-LTV (Lifetime Value) fanbases that sustain an IP through merchandise and sequels for decades.
 
-Project Board (Trello) | Executive Summary & Slides | Interactive Demo🛠️ 
+Presentation Slides[https://docs.google.com/presentation/d/1XqyCHKCM1-WnqYHUWNGrkXlSdozJjUL1/edit?usp=sharing&ouid=100518400196621969509&rtpof=true&sd=true] 
 
