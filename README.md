@@ -1,4 +1,4 @@
-# anime-manga-ip-global-expansion
+# 🌐 Global Expansion of Japanese Anime IP 🗾
 ML powered Predictive analysis of Japanese Intellectual Property powered by 'Anime' to optimise global market expansion.
 
 ## 🛠️ Tech Stack & Tools
@@ -14,20 +14,19 @@ ML powered Predictive analysis of Japanese Intellectual Property powered by 'Ani
 ---
 
 ## Project Background & Overview
-***The Global IP Opportunity***
+***Turning Cultural Prestige into Global Profitability***
 
-While the artistry of Studio Ghibli and Makoto Shinkai has elevated Anime to a global art form, the industry faces a structural paradox. As Japan’s domestic market grapples with a shrinking population and economic inflation, the future of Japanese IP—Manga, Light Novels, and Studio Originals—lies in global expansion.
+While Ghibli and Shinkai elevated Anime to a global art form, the industry now faces a structural paradox. With Japan's domestic market at saturation, the $25B industry, now growing overseas, is entering its most ambitious era of expansion.
 
 ***The Mission: Decoding Success***
-This project aims to decode the "recipe" for global IP success seen in powerhouses like One Piece, Naruto, and Your Name. We are analyzing these frameworks to:
+This project aims to decode the "recipe" for global IP success seen in powerhouses like Attack on Titan, Naruto, and Ghibli titles. 
 
-- Drive Regional Revitalisation: Use IP success to funnel tourism and economic interest into rural Japan.
+We are analysing these frameworks to:
 
-- Empower Creators: Shift the model so studios can reinvest profits into human creativity.
+- **Empower Creators (The Studio Pivot)**: By identifying "Prestige" potential early, we validate the shift toward Production IP Ownership. This allows studios to move from "work-for-hire" vendors to equity partners, ensuring profits are reinvested into human creativity and sustainable production cycles.
 
-- Bridge the Digital Gap: Develop the digital capabilities necessary for Japanese studios to flourish in a tech-driven global landscape.
+- **De-Risk Global Investment**: My high-recall model replaces "creative gambling" with Data-Backed Asset Valuation, ensuring that high-potential IPs receive the global resources (EN/ES/PT localisation) they deserve.
 
-Goal: To transition the industry from a labour-intensive production model to a high-value, IP-driven ecosystem where creativity and technology intersect.
 
 ## 📊 Data Architecture & ML Strategy
 This project integrates multi-dimensional datasets to bridge the gap between "artistic popularity" and "commercial global success."
@@ -50,168 +49,19 @@ Using statistical testing and supervised learning, we categorize titles into two
 
 Technical Note: I utilised feature engineering on the "Triple-Dip" model (Manga -> Anime -> Merch/Game) to determine if a title has the structural support to survive outside the traditional production committee system.
 
-## Executive Summary 
-## Insight Deepdive 
-## Recommendations 
+##  📈 Executive Summary
+- **The Challenge** : Detecting "Global Hits" is a needle-in-a-haystack problem (only 2.7% of titles). Standard models fail because they over-predict "flops" to stay safe.
+- **The Solution**: I evolved my approach from simple classification to a Prestige-Recall Engine. By engineering a "Prestige Score" and tuning for sensitivity, I achieved 94% Recall.
+- **The Impact**: This model eliminates "creative gambling," identifying the 1% of assets that drive 90% of global revenue with near-perfect reliability.
 
-### 🗾 Global IP Decoder: Predicting the Next Anime "Hit"
-Problem: Japanese animation studios are trapped in a low-profit "contractor" model despite a $28B global market.Solution: A Machine Learning framework to identify the "Success Recipe" for global IP, enabling studios to transition from labor-providers to IP owners and drive regional tourism.
+## 💡Insight Deepdive 
+- **Execution Alpha**: Studio pedigree is the #1 force-multiplier. High-potential IP must be paired with studios that have IP Ownership (e.g., MAPPA, KyoAni) to ensure quality alignment.
+- **The Emotional Moat**: While Action "hooks" fans, Drama and Fantasy drive the long-term loyalty and merchandise sales that sustain an IP for decades.
+  
+## 🎯 Recommendations
+- **Linguistic Velocity**: Focus "Day-and-Date" localsation on the GDP Power Trio (EN, ES, FR) to capture 52% of global demand immediately.
+- **Prioritize "Execution Alpha"**: Align high-potential IPs with studios that hold equity stakes (e.g., MAPPA, KyoAni). Ownership ensures the production quality required to hit the "Prestige" threshold.
+- **Monetize Emotional Intensity**: Use the model to identify IPs that drive deep fan loyalty. Reinvest in these "high-intensity" titles to build resilient, high-LTV (Lifetime Value) fanbases that sustain an IP through merchandise and sequels for decades.
 
 Project Board (Trello) | Executive Summary & Slides | Interactive Demo🛠️ 
 
-The Tech StackData: Jikan API (MyAnimeList), Manga/GDP regional data, E-commerce (Crunchyroll Store).ML: Python (Scikit-Learn, Pandas), Random Forest/XGBoost for Hit Classification.Goal: Classify IP as Global Hit vs. Niche/Local with $>XX\%$ accuracy.
-
-📊 Data Pipeline & InsightsAggregated Features: Combined viewing stats (MAL) with "Global Expansion Power" (Game collaborations and merchandise SKU counts across UK/EU/US).
-
-Key EDA Finding: [Insert one punchy insight, e.g., "Manga translated into 5+ languages before Anime adaptation increases merchandise ROI by 40%."]
-
-ML Objective: Predicting the probability of a title becoming a "Global Hit" to guide studio reinvestment into digital capabilities and rural tourism.
-
-🎯 Strategic Impact (Recommendations)
-- Direct Ownership: Shifting from production committees to long-tail license ownership.
-- Human Creativity: Creating a profit loop to fund digital R&D and creator salaries.
- 
-
-The presentation is available [here](link).
----
-Tableau dashboard and sheets available [here](link).
----
-
-## 💾 Data Structure Overview (2) 
-
-The analysis merges multiple data sets to analyse the 
-
-
-## Day 1: summary 
-
-task in a sentence 
-
-### Analysis Goals
-
-1. **Goal A:** description 
-2. **Goal B:** description
-3. **Goal C:** description
-
-### Testable Hypotheses
-
-| ID     | Category                  | Hypothesis Statement                                                                                                                |
-| :----- | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------- |
-| **H1** | Metric 1    | describe                                   |
-| **H2** | Metric 2      | describe            |
-
----
-
-## Day 2: Summary 
-
-Day 2 focused on....
-### Key Cleaning Steps (Python/Pandas)
-
-1. **task**: describe 
-2. **task**: describe
-3. **task**: describe
-4. **task**: describe
- 
----
-
-## Day 3: Summary
-
-Day 3 focused on....
-
-
-
-### 1. `KPI`
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-  
----
-
-### 2. `KPI`
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-
----
-
-### 3. `KPI`
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-- `metric` → describe
-
----
-
-### 🔗 Key Takeaway
-
-- something.
-
----
-
-## Day 4: summary 
-
-Day 4 focused on...
-
-### Goal 
-
-- **KPI:** finding
-- **KPI:** finding
-
-### Goal 2 
-
-- **KPI:** finding
-- **KPI:** finding
-
-
-### 🔗 Key Takeaway
-
-- something 
----
-
-## Day 5: summary 
-
-Day 5 focused on....
-
-- **KPI:** finding
-- **KPI:** finding
-
-- ### 🔗 Key Takeaway
-
-- something 
-
----
-
-## Day 6 : Theme 
-
-Day 6 focused on....
-
-- **KPI:** finding
-- **KPI:** finding
-
----
-
-## Day 7 : theme 
-
-Day 7 focused on 
-
-- **KPI:** finding
-- **KPI:** finding
-
----
-## Day 8 : theme 
-
-Day 8 focused on 
-
-- **KPI:** finding
-- **KPI:** finding
-
----
-## Day 9 : theme 
-
-Day 9 focused on 
-
-- **KPI:** finding
-- **KPI:** finding
-
----
